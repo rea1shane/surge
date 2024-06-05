@@ -6,9 +6,6 @@ let args = parseArgs();
 
     const content = [];
 
-    // Update time
-    content.push(`updated on ${currentTime()}`);
-
     // Total
     const total = data.total;
     content.push(`Total: ${formatBytes(total)}`);
@@ -18,12 +15,13 @@ let args = parseArgs();
     content.push(`Used: ${formatBytes(used)} (${((used / total) * 100).toFixed(2)}%)`);
 
     // Expire
-    let expire = data.expire || args.expire;
-    if (expire && expire !== "false") {
-        if (/^[\d.]+$/.test(expire)) expire *= 1000;
-        const expireDate = new Date(expire);
+    if (data.expire) {
+        const expireDate = new Date(data.expire * 1000);
         content.push(`Expire: ${formatDate(expireDate)} (${getRemainingDays(expireDate)})`);
     }
+
+    // Update time
+    content.push(`Updated on ${currentTime()}`);
 
     $done({
         title: args.title,

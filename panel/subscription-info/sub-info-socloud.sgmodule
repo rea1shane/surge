@@ -1,0 +1,11 @@
+#!name=机场订阅信息
+#!desc=显示机场订阅的总流量、剩余流量、过期日期等信息。
+#!system=ios
+#!category=Panels
+#!arguments=title, icon:server.rack, color:#4980c9, url, method:head
+
+[Panel]
+panelA = title={{{title}}}, icon={{{icon}}}, icon-color={{{color}}}, content="Loading…", script-name=scriptA, update-interval=1
+
+[Script]
+scriptA = type=generic, script-path=https://raw.githubusercontent.com/rea1shane/sgmodules/main/panel/subscription-info/subscription-info.js, argument=title={{{title}}}&icon={{{icon}}}&color={{{color}}}&url={{{url}}}&method={{{method}}}

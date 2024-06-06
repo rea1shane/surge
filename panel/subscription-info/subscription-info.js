@@ -1,4 +1,4 @@
-let args = parseArgs();
+const args = parseArgs();
 
 (async () => {
     const data = await getData(args.url);
@@ -31,12 +31,10 @@ let args = parseArgs();
     });
 })();
 
-
-
 function getSubscriptionInfo(url) {
     const request = {
         headers: {
-            "User-Agent": "Surge"
+            "User-Agent": "Surge module"
         },
         url
     };
@@ -66,7 +64,7 @@ async function getData(url) {
             })
         );
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -90,11 +88,10 @@ function getRemainingDays(date) {
     const current = new Date();
     const diffTime = date - current;
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays < 0 ? "expired" : diffDays <= 1 ? `${diffDays} day left` : `${diffDays} days left`;
+    return diffDays < 0 ? "expired" : `${diffDays} day${diffDays > 1 ? 's' : ''} left`;
 }
 
-// FROM CORE 
-// Arg
+// FROM CORE
 function parseArgs() {
     return Object.fromEntries(
         $argument
@@ -103,7 +100,6 @@ function parseArgs() {
     );
 }
 
-// Current Time
 function currentTime() {
     const current = new Date();
     const hours = (`0${current.getHours()}`).slice(-2);

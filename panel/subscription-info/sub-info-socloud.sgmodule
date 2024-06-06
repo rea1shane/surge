@@ -1,5 +1,5 @@
 #!name=机场订阅信息
-#!desc=显示机场订阅的总流量、剩余流量、过期日期等信息。
+#!desc=显示机场订阅的总流量、已用流量和过期日期。
 #!system=ios
 #!category=Panels
 #!arguments=title, icon:server.rack, color:#4980c9, url, method:head

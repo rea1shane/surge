@@ -1,5 +1,5 @@
 #!name = Alibaba DoH
-#!desc = Add Alibaba's DoH server to the encrypted DNS server list.\n\nNote: There is no need to turn on DoH unless the ISP has serious DNS pollution. See: https://community.nssurge.com/d/1214
+#!desc = Add Alibaba's DoH server to the encrypted DNS server list.\nNote: There is no need to turn on DoH unless the ISP has serious DNS pollution. See: https://community.nssurge.com/d/1214
 #!category = DNS
 
 [General]

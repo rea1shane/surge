@@ -2,8 +2,7 @@
 
 ## Useful modules
 
-- https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DNS-QUIC
-- https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DoH
+- https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DoH ([NOTE](https://community.nssurge.com/d/1214): There is no need to turn on DoH unless the ISP has serious DNS pollution.)
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/GoogleRewrite
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/General
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/Skip-Proxy

@@ -1,0 +1,6 @@
+#!name = System DNS
+#!desc = Add system DNS to the DNS server list.
+#!category = DNS
+
+[General]
+dns-server = %APPEND% system

@@ -1,0 +1,6 @@
+#!name = Alibaba DoH
+#!desc = Add Alibaba's DoH server to the encrypted DNS server list.
+#!category = DNS
+
+[General]
+encrypted-dns-server = %APPEND% https://dns.alidns.com/dns-query

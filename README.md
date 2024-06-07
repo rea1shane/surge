@@ -1,8 +1,6 @@
 # Surge modules
 
-## Modules
-
-### Useful
+## Useful modules
 
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DNS-QUIC
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DoH
@@ -11,10 +9,11 @@
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/Skip-Proxy
 - https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/Baidu_index
 
-### Others
+## Resources
 
 - https://github.com/Rabbit-Spec/Surge
 - https://github.com/VirgilClyne/GetSomeFries
+- https://github.com/TributePaulWalker/Profiles
 
 ## References
 

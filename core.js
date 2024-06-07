@@ -1,4 +1,4 @@
-// Arg
+// Args
 function parseArgs() {
     return Object.fromEntries(
         $argument
@@ -7,7 +7,7 @@ function parseArgs() {
     );
 }
 
-// Current Time
+// Current time
 function currentTime() {
     const current = new Date();
     const hours = (`0${current.getHours()}`).slice(-2);

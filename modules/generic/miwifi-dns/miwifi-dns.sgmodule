@@ -1,5 +1,5 @@
 #!name = MiWiFi's DNS
-#!desc = DNS of MiWiFi.
+#!desc = It is better to use the official "router.com" module instead of this one.
 #!category = DNS
 
 # reference = https://kb.nssurge.com/surge-knowledge-base/faq/common-faqs#using-surge-mac-and-vpn-together

@@ -4,7 +4,6 @@
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
 
 [MITM]
-hostname = %APPEND% google.cn, g.cn
+hostname = %APPEND% www.g.cn, www.google.cn

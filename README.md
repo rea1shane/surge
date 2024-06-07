@@ -1,4 +1,4 @@
-# Surge modules
+# Surge
 
 ## Useful modules
 

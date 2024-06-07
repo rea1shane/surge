@@ -1,6 +1,6 @@
-#!name=Redirect Google
-#!desc=Fixes an issue that requires a confirmation jump to see the results page when using the default Google search in iOS Safari.
-#!category=Enhancements
+#!name = Redirect Google
+#!desc = Fixes an issue that requires a confirmation jump to see the results page when using the default Google search in iOS Safari.
+#!category = Enhancements
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302

@@ -1,7 +1,8 @@
 #!name = MiWiFi's DNS
 #!desc = DNS of MiWiFi.
 #!category = DNS
-#!reference = https://kb.nssurge.com/surge-knowledge-base/faq/common-faqs#using-surge-mac-and-vpn-together
+
+# reference = https://kb.nssurge.com/surge-knowledge-base/faq/common-faqs#using-surge-mac-and-vpn-together
 
 [Host]
 miwifi.com = 192.168.31.1 // MiWiFi

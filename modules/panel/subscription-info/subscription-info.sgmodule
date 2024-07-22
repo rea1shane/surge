@@ -1,6 +1,5 @@
 #!name=机场订阅信息
 #!desc=显示机场订阅的总流量、已用流量和过期日期。
-#!system=ios
 #!category=Panels
 #!arguments=title, icon:server.rack, color:#4980c9, url, method:head
 #!arguments-desc=title：标题。\n\nicon：SF Symbol 图标，App Store 中搜索 SF Symbol 可下载 App 查看所有图标。\n\ncolor: 颜色的 HEX 代码。\n\nurl：订阅链接，填写前需要进行 encode。在线工具：https://www.urlencoder.org/\n\nmethod：订阅链接的请求方法。有些服务端不支持 head 方法，可以设置为 get。

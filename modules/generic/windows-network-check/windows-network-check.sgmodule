@@ -1,0 +1,8 @@
+#!name = Windows network check
+#!desc = Make Windows check network availability correctly.
+#!category = DNS
+
+# reference = https://github.com/vernesong/OpenClash/issues/2050
+
+[General]
+always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com

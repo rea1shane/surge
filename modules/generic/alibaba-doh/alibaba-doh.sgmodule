@@ -3,4 +3,4 @@
 #!category = DNS
 
 [General]
-encrypted-dns-server = %APPEND% https://dns.alidns.com/dns-query
+encrypted-dns-server = %INSERT% https://dns.alidns.com/dns-query

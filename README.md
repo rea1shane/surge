@@ -25,6 +25,10 @@
 - https://github.com/mieqq/mieqq
 - https://github.com/BlueGrave/Surge
 - https://github.com/NobyDa/Script
+- https://github.com/fmz200/wool_scripts/
+- https://github.com/ddgksf2013
+- https://t.me/Aa28413761 (https://t.me/Aa28413761/239)
+- https://github.com/Script-Hub-Org/Script-Hub
 
 ## References
 

@@ -1,4 +1,4 @@
-#!name = Local DNS server
+#!name = Local DNS
 #!desc = Use local plain DNS (127.0.0.1:53).
 #!category = DNS
 #!system=mac

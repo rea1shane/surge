@@ -29,6 +29,7 @@
 - https://github.com/ddgksf2013
 - https://t.me/Aa28413761 (https://t.me/Aa28413761/239)
 - https://github.com/Script-Hub-Org/Script-Hub
+- https://github.com/geekdada/surge-list
 
 ## References
 

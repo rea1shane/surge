@@ -1,0 +1,8 @@
+#!name = Local DNS server
+#!desc = Use local plain DNS (127.0.0.1:53).
+#!category = DNS
+#!system=mac
+
+[General]
+dns-server = 127.0.0.1
+encrypted-dns-server = off

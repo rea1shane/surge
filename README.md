@@ -30,9 +30,11 @@
 - https://t.me/Aa28413761 (https://t.me/Aa28413761/239)
 - https://github.com/Script-Hub-Org/Script-Hub
 - https://github.com/geekdada/surge-list
+- https://gist.github.com/cute/b9a5b0ac2144f3ec1f67c7c637555a17
 
 ## References
 
+- Understanding Surge: https://manual.nssurge.com/book/understanding-surge/cn/
 - Module: https://manual.nssurge.com/others/module.html
 - Panel: https://manual.nssurge.com/others/panel.html
 - Script: https://manual.nssurge.com/scripting/common.html
